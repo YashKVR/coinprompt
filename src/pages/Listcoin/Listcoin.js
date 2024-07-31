@@ -220,7 +220,7 @@ export const Listcoin =(event) =>{
                     <div className="openFolderImg">
                         <span className='titleInput'>Logo Upload*<br/>(.jpg .png .svg)</span>
                         <label htmlFor='uploadFileInput'>
-                            <input type="file" id='uploadFileInput' className="uploadFile" style={{display:"none"}} onChange={imgUploadInput}/>
+                            <input type="file" id='uploadFileInput' className="uploadFile" style={{display:"none"}} onChange={imgUploadInput} accept='.jpg, .png, .svg'/>
                             <img src={logoImg} alt=""/>
                         </label>
                     </div>
